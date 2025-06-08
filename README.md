@@ -23,3 +23,7 @@ pnpm run watch
 ```bash
 pnpm run server
 ```
+
+## Contact
+
+Contact me via [LinkedIn](https://www.linkedin.com/in/htxryan)
