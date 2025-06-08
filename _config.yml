@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ryan Henderson's Blog
+title: Ryan's Blog
 subtitle: ''
-description: 'I do things with computers and occasionally leave a note.<br/>Based in Houston, Texas.'
+description: 'Hey, I''m Ryan Henderson. I do things with computers and occasionally leave a note.<br/>Based in Houston, Texas.'
 keywords:
 author: Ryan Henderson
 language: en
@@ -104,11 +104,15 @@ theme_config:
   nav:
     Home: /
     Tags: /tags/
-    # Search: /search/
+    Search: /search/
+    RSS: /atom.xml
     # about: /about/
     # LinkedIn: https://www.linkedin.com/in/htxryan
+  post:
+    show_updated: true
   posts_overview:
     show_all_posts: true
+    sort_updated: false
   social_links:
   - icon: github
     link: https://github.com/htxryan
@@ -122,7 +126,26 @@ theme_config:
   google_analytics:
     enabled: true
     id: 'G-KMB0XN38B3'
-
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    gravatar: true
+  favicon:
+    desktop:
+      # url: /favicon.ico
+      gravatar: true
+    android:
+      # url: /android-chrome-96x96.png
+      gravatar: true
+    apple:
+      # url: /apple-touch-icon.png
+      gravatar: true
+  gravatar:
+    email: htxryan@gmail.com
+    hash: 63ec1dd975070fe9a332b7e4d66d6ff5
+  rss: atom.xml
+  
 search:
   path: search.xml
   field: all
