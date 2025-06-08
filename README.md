@@ -13,9 +13,13 @@ https://ryanhenderson.dev
 ## Run Locally
 
 ```bash
-npm run watch
+pnmp install
 ```
 
 ```bash
-npm run server
+pnpm run watch
+```
+
+```bash
+pnpm run server
 ```
